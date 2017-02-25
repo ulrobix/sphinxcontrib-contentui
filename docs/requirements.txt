@@ -1,0 +1,1 @@
+-e git://github.com/ulrobix/sphinx_examplecode_test.git#egg=sphinxcontrib-contentui

@@ -1,0 +1,10 @@
+*egg-info
+*.pyc
+.idea
+.installed.cfg
+.DS_Store
+docs/_build/*
+include/
+lib/
+lib64
+pip-selfcheck.json
