@@ -14,15 +14,15 @@ About
 
 This is a simple extension that is rendered as HTML widgets:
 
-- `Content tab <http://sphinx-examplecode-test.readthedocs.io/en/latest/tabs.html>`_
-- `Column content <http://sphinx-examplecode-test.readthedocs.io/en/latest/columns.html>`_
-- `Toggle header <http://sphinx-examplecode-test.readthedocs.io/en/latest/toggle.html>`_
+- `Content tab <http://sphinxcontrib-contentui.readthedocs.io/en/latest/tabs.html>`_
+- `Column content <http://sphinxcontrib-contentui.readthedocs.io/en/latest/columns.html>`_
+- `Toggle header <http://sphinxcontrib-contentui.readthedocs.io/en/latest/toggle.html>`_
 
 
 Example
 -------
 
-`All in one Example <http://sphinx-examplecode-test.readthedocs.io/en/latest/example-all.html>`_
+`All in one Example <http://sphinxcontrib-contentui.readthedocs.io/en/latest/example-all.html>`_
 
 
 Installation
@@ -48,7 +48,7 @@ Documentation
 
 Full documentation for end users can be found in the "docs" folder.
 
-It is also available online on `Read The Docs <http://sphinx-examplecode-test.readthedocs.io/en/latest/>`_
+It is also available online on `Read The Docs <http://sphinxcontrib-contentui.readthedocs.io/en/latest/>`_
 
 
 .. Links:
