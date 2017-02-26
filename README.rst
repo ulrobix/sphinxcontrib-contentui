@@ -22,7 +22,7 @@ This is a simple extension that is rendered as HTML widgets:
 Example
 -------
 
-`All in one Example <http://sphinxcontrib-contentui.readthedocs.io/en/latest/example-all.html>`_
+`All-in-One Example <http://sphinxcontrib-contentui.readthedocs.io/en/latest/example-all.html>`_
 
 
 Installation

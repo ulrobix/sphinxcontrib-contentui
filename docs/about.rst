@@ -1,7 +1,7 @@
 About
 =====
 
-This is a simple sphinx extension that is rendered as HTML widgets:
+This is a simple Sphinx extension that is rendered as HTML widgets:
 
 - :ref:`content-tabs`
 - :ref:`column-content`

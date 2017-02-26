@@ -9,16 +9,21 @@ or:
 
 .. rst:directive:: .. container:: content-tabs class
 
-Creates block with content tabs. The same attribute `class` in several
-blocks allows you to synchronize switching tabs.
+"content-tabs" directive creates a block with content tabs.
+Content of only one tab will be shown at the same time.
+Content switches with click on corresponding tab's caption.
+Click on caption of `tab-container`'s caption with the same `name` attribute
+activates all tabs with the same `name` in all `content-tab` blocks with the same
+attribute `class`.
 
-If you specify a class of :ref:`right-col <column-content>` then the menu
-will be fixed in the upper right position, see :ref:`example-all`.
+Special class :ref:`right-col <column-content>` fixates the "content-tabs"
+menu in the upper right position, see :ref:`example-all`.
 
 .. rst:directive:: .. tab-container:: name
 
-Creates content tab. Tab caption set in `title` option. The name attribute
-must match the name tab of another block if you want to synchronize them.
+"tab-container" directive creates a content tab. Tab's caption is set by
+`title` option. To switch tabs synchronously the `name` attribute should match
+with "tab-container" from another blocks.
 
 Full example::
 
@@ -35,7 +40,7 @@ Full example::
             Content for tab two
 
 
-It's render this:
+will be rendered like this:
 
 .. content-tabs::
 
@@ -78,14 +83,14 @@ More examples
 
         .. code-block:: python
 
-            my-api.signin()
+            my_api.signin()
 
         .. rubric:: Example request
 
         .. code-block:: python
 
-            import my-api
-            my-api.signin('username', 'password')
+            import my_api
+            my_api.signin('username', 'password')
 
 
     .. tab-container:: php
@@ -101,5 +106,5 @@ More examples
 
         .. code-block:: php
 
-            include 'my-api';
+            include 'my-api.php';
             MyApi::signin('username', 'password');

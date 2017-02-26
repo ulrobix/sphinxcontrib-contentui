@@ -1,6 +1,6 @@
 .. _example-all:
 
-All in one Example
+All-in-One Example
 ------------------
 
 .. container:: left-col
@@ -54,14 +54,14 @@ All in one Example
 
         .. code-block:: python
 
-            my-api.signin()
+            my_api.signin()
 
         .. rubric:: Example request
 
         .. code-block:: python
 
-            import my-api
-            my-api.signin('username', 'password')
+            import my_api
+            my_api.signin('username', 'password')
 
     .. tab-container:: php
         :title: PHP
@@ -76,7 +76,7 @@ All in one Example
 
         .. code-block:: php
 
-            include 'my-api';
+            include 'my-api.php';
             MyApi::signin('username', 'password');
 
 Additional

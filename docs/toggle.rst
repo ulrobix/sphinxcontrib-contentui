@@ -5,9 +5,10 @@ Toggle headers
 
 .. rst:directive:: .. toggle-header:: class
 
-Creates a header with toggled content. Optional attribute `class` adding
-css class for header paragraph. Required option `header` set text of
-header.
+"toggle-header" directive creates a block with a visible heading for the
+hidden content. The heading can be clicked to view/hide the hidden content.
+Optional attribute `class` adds css class for hidden content.
+Required option `header` sets text of the heading of the hidden content.
 
 Full example::
 
@@ -17,7 +18,7 @@ Full example::
             Content for header
 
 
-It's render this:
+will be rendered like this:
 
 .. toggle-header::
     :header: Example 1 **Show/Hide Code**
