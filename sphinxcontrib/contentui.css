@@ -15,6 +15,9 @@
     }
 
     .with-columns .wy-nav-content .wy-breadcrumbs ,
+    .with-columns .section > h1,
+    .with-columns .section > h2,
+    .with-columns .section > h3,
     .with-columns footer {
         width: 50%;
     }
