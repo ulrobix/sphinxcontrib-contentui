@@ -6,11 +6,11 @@ long_desc = '''
 This package contains the contentui Sphinx extension.
 '''
 
-requires = ['Sphinx>=1.0']
+requires = ['Sphinx>=2.0']
 
 setup(
     name='sphinxcontrib-contentui',
-    version='0.2.2',
+    version='0.2.3',
     url='https://github.com/ulrobix/sphinxcontrib-contentui',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-contentui',
     license='BSD',
