@@ -10,7 +10,7 @@ requires = ['Sphinx>=2.0']
 
 setup(
     name='sphinxcontrib-contentui',
-    version='0.2.3',
+    version='0.2.4',
     url='https://github.com/ulrobix/sphinxcontrib-contentui',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-contentui',
     license='BSD',

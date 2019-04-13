@@ -68,13 +68,12 @@ class ToggleDirective(Directive):
         node = nodes.container()
         node['classes'].append('toggle-content')
 
-        header = self.options["header"]
-        par = nodes.paragraph(header)
+        par = nodes.container()
         par['classes'].append('toggle-header')
         if self.arguments and self.arguments[0]:
             par['classes'].append(self.arguments[0])
 
-        self.state.nested_parse(StringList([header]), self.content_offset, par)
+        self.state.nested_parse(StringList([self.options["header"]]), self.content_offset, par)
         self.state.nested_parse(self.content, self.content_offset, node)
 
         return [par, node]
