@@ -1,0 +1,8 @@
+from centos/python-36-centos7
+USER root
+RUN pip install -U virtualenv 
+COPY Makefile /opt/app-root/src/Makefile
+ARG UID
+ARG VENV_DIR
+USER $UID
+RUN make VENV_DIR=/opt/app-root/src/$VENV_DIR /opt/app-root/src/$VENV_DIR

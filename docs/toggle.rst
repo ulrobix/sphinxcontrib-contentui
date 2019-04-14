@@ -29,9 +29,9 @@ Generated HTML code:
 
 .. code-block:: html
 
-    <p class="toggle-header open">
-        Example <strong>Show/Hide Code</strong>
-    </p>
+    <div class="toggle-header open">
+        <p>Example <strong>Show/Hide Code</strong></p>
+    </div>
     <div class="toggle-content docutils container">
         Content for header
     </div>
