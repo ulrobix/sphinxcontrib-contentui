@@ -54,3 +54,8 @@ It is also available online on `Read The Docs <http://sphinxcontrib-contentui.re
 .. Links:
 .. _Sphinx: http://sphinx.pocoo.org/`
 
+
+License
+-------
+
+sphinxcontrib-contentui is licensed under the [MIT Licence](LICENSE)
