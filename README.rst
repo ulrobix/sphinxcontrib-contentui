@@ -58,4 +58,4 @@ It is also available online on `Read The Docs <http://sphinxcontrib-contentui.re
 License
 -------
 
-sphinxcontrib-contentui is licensed under the [MIT Licence](LICENSE)
+sphinxcontrib-contentui is licensed under the MIT License
