@@ -80,8 +80,8 @@ class ToggleDirective(Directive):
 
 
 def add_assets(app):
-    app.add_stylesheet(CSS_FILE)
-    app.add_javascript(JS_FILE)
+    app.add_css_file(CSS_FILE)
+    app.add_js_file(JS_FILE)
 
 
 def copy_assets(app, exception):
