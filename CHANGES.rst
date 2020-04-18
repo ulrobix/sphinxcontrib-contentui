@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.2.5 (2020-04-18)
+------------------
+
+- Update deprecated js and css Sphinx commands
+
+
 0.2.4 (2019-04-13)
 ------------------
 
