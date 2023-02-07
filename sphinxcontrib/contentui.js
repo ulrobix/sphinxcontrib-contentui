@@ -53,6 +53,10 @@ $(function() {
 
     $('.contenttab-selector li').click(function(evt) {
         evt.preventDefault();
+        
+        if(this.classList.contains('selected')) {
+            return;
+        }
 
         if ($(this).parents('.in-right-col').length){
             var tabsblock = $('.right-col');
