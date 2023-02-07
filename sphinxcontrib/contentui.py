@@ -85,7 +85,7 @@ def add_assets(app):
 
 
 def copy_assets(app, exception):
-    if app.builder.name not in ['html', 'readthedocs'] or exception:
+    if app.builder.name not in ['singlehtml','html','readthedocs'] or exception:
         return
     logger = logging.getLogger(__name__)
     logger.info('Copying contentui stylesheet/javascript... ', nonl=True)
